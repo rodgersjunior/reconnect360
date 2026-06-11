@@ -1,6 +1,6 @@
 // reconnect360 Frontend JavaScript - With Authentication
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://your-railway-url/api'; // UPDATE THIS WITH YOUR DEPLOYED URL
 let authToken = localStorage.getItem('authToken');
 let currentUser = null;
 
